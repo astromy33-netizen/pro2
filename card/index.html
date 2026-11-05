@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Открытка для Аруны Тазабековой</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:grid;place-items:center;padding:16px;
+    background:linear-gradient(135deg,#1e1b4b,#7c3aed 55%,#ec4899);font-family:system-ui,sans-serif}
+  .card{max-width:560px;width:100%;background:#0f172a;color:#e2e8f0;border-radius:20px;
+    box-shadow:0 20px 50px #0008;overflow:hidden}
+  .bar{display:flex;gap:8px;padding:12px 16px;background:#1e293b}
+  .bar i{width:12px;height:12px;border-radius:50%;display:block}
+  .bar i:nth-child(1){background:#ef4444}.bar i:nth-child(2){background:#f59e0b}.bar i:nth-child(3){background:#22c55e}
+  pre{margin:0;padding:24px;font:15px/1.7 ui-monospace,Menlo,Consolas,monospace;white-space:pre-wrap;color:#a5b4fc}
+  .k{color:#f472b6}.s{color:#86efac}.c{color:#64748b}
+  .msg{padding:8px 28px 32px;text-align:center}
+  h1{margin:0 0 12px;font-size:1.7rem;background:linear-gradient(90deg,#f9a8d4,#a5b4fc);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  p{line-height:1.6;margin:8px 0}
+  .heart{font-size:2.2rem;animation:b 1.2s infinite}
+  @keyframes b{50%{transform:scale(1.25)}}
+  @media (prefers-reduced-motion:reduce){.heart{animation:none}}
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="bar"><i></i><i></i><i></i></div>
+<pre><span class="c"># teacher.py</span>
+<span class="k">def</span> thank_you(teacher):
+    <span class="k">return</span> <span class="s">f"Спасибо, {teacher}!"</span>
+
+print(thank_you(<span class="s">"Аруна Тазабекова"</span>))</pre>
+  <div class="msg">
+    <h1>Уважаемая Аруна Тазабекова!</h1>
+    <p>Спасибо, что учите нас программированию, терпеливо объясняете сложное и помогаете находить ошибки — и в коде, и в жизни.</p>
+    <p>Желаем вам здоровья, вдохновения и учеников, у которых всегда компилируется с первого раза!</p>
+    <div class="heart">💜</div>
+    <p><b>С уважением, ваши ученики</b></p>
+  </div>
+</main>
+</body>
+</html>
